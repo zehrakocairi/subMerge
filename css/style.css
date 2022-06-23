@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.uploadButtons {
+  display: flex;
+  justify-content: center;
+}
+.custom-button {
+  padding: 10px;
+  color: white;
+  background-color: rgb(103, 120, 193);
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: white;
+  color: rgb(103, 120, 193);
+  border: 1px solid gray;
+}
+
+.custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #aaa;
+}
+
+.btn-wrapper {
+  margin: 7px;
+}
+.merge-btn {
+  padding: 9px;
+  background-color: white;
+  color: rgb(103, 120, 193);
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.merge-btn:hover {
+  color: white;
+  background-color: rgb(103, 120, 193);
+  border: 1px solid white;
+  cursor: pointer;
+}

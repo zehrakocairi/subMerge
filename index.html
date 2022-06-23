@@ -6,6 +6,59 @@
     <title>subMerge</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="javascript/script.js" defer></script>
+    <script src="http://danml.com/js/download.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <section>
+      <form class="form" id="myForm">
+        <div class="uploadButtons">
+          <div class="btn-wrapper">
+            <input
+              type="file"
+              id="file1"
+              class="file"
+              hidden="hidden"
+              onchange="myChangeFunction(event)"
+            />
+            <button
+              type="button"
+              id="custom-button1"
+              class="custom-button"
+              onclick="myClickFunction(event)"
+            >
+              CHOOSE A FILE
+            </button>
+            <span id="custom-text1" class="custom-text"
+              >No file chosen, yet.</span
+            >
+          </div>
+          <div class="btn-wrapper">
+            <input
+              type="file"
+              id="file2"
+              class="file"
+              hidden="hidden"
+              onchange="myChangeFunction(event)"
+            />
+            <button
+              type="button"
+              id="custom-button2"
+              class="custom-button"
+              onclick="myClickFunction(event)"
+            >
+              CHOOSE A FILE
+            </button>
+            <span id="custom-text2" class="custom-text"
+              >No file chosen, yet.</span
+            >
+          </div>
+          <div class="btn-wrapper">
+            <button type="submit" id="merge-btn" class="merge-btn">
+              MERGE
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
 </html>
