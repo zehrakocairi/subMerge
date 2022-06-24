@@ -5,16 +5,16 @@ function myClickFunction(e) {
   fileInput.click();
 }
 
-function myChangeFunction(e) {
-  const fileInput = e.target.parentNode.querySelector(".file");
-  const span = e.target.parentNode.querySelector(".custom-text");
+// function myChangeFunction(e) {
+//   const fileInput = e.target.parentNode.querySelector(".file");
+//   const span = e.target.parentNode.querySelector(".custom-text");
 
-  if (fileInput.value) {
-    span.innerHTML = fileInput.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
-  } else {
-    span.innerHTML = "No file chosen, yet.";
-  }
-}
+//   if (fileInput.value) {
+//     span.innerHTML = fileInput.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
+//   } else {
+//     span.innerHTML = "No file chosen, yet.";
+//   }
+// }
 
 myForm.addEventListener("submit", (e) => {
   e.preventDefault();
