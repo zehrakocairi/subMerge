@@ -1,23 +1,87 @@
 * {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
-.uploadButtons {
+body {
+  margin: 0px;
+}
+/*Header*/
+.site-header {
+  background-color: #4046be;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 18px;
+  margin-left: 100px;
+}
+.logo h2 {
+  font-weight: 600;
+  margin: 15px 0px;
+  color: white;
+}
+.icons {
+  margin-right: 100px;
+}
+.git-icon {
+  width: 28px;
+
+  transition: all 0.5s ease-out;
+}
+.git-icon:hover {
+  width: 35px;
+}
+/*Form*/
+#form-section {
+  background-image: url("https://kodilist.com/img/background/crossword.jpg");
+  height: 100vh;
+  padding: 100px;
+}
+.headline h1 {
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+.sub-text {
+  text-align: center;
+  padding: 0 250px;
+}
+.sub-text h4 {
+  color: #4046be;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 18px;
+}
+.sub-text p {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 5px;
+}
+.form-wrapper {
+  padding: 50px;
+  margin-top: 40px;
+}
+.file-buttons {
   display: flex;
   justify-content: center;
 }
+.uploadButtons {
+}
 .custom-button {
-  padding: 10px;
-  color: white;
-  background-color: rgb(103, 120, 193);
-  border: 1px solid white;
-  border-radius: 5px;
+  background-color: white;
+  border: 0.1px solid gray;
+  padding: 20px 200px;
   cursor: pointer;
+  transition: all 0.5s ease-out;
 }
 
 .custom-button:hover {
-  background-color: white;
-  color: rgb(103, 120, 193);
-  border: 1px solid gray;
+  background-color: #a2b4f1;
+  color: white;
+  border: none;
 }
 
 .custom-text {
@@ -29,16 +93,19 @@
 .btn-wrapper {
   margin: 7px;
 }
+.merce-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
 .merge-btn {
-  padding: 9px;
+  padding: 20px 488px;
   background-color: white;
-  color: rgb(103, 120, 193);
-  border: 1px solid gray;
-  border-radius: 5px;
+  border: 0.1px solid gray;
+  cursor: pointer;
 }
 .merge-btn:hover {
+  background-color: #a2b4f1;
   color: white;
-  background-color: rgb(103, 120, 193);
-  border: 1px solid white;
-  cursor: pointer;
+  border: none;
+  transition: all 0.5s ease-out;
 }
